@@ -8,7 +8,7 @@ const routeBooks = require('./src/routes/books.routes')
 
 const app = express();
 
-app.set('port', process.env.PORT || 3000);
+app.set('port', process.env.PORT || 3001);
 
 //Midlewares
 app.use(myConnection(mysql, dbOption.dbOptions, 'pool'));

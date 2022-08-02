@@ -8,8 +8,7 @@ const getBooks = (req, res) => {
       res.json(rows);
     })
   })
-};
-
+}
 //READ
 const getBook = (req, res) => {
   req.getConnection((err, conn) => {
